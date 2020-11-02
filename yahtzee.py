@@ -139,7 +139,7 @@ class YahtzeeHand:
          
         print("+" + "---+" * 5)
         for row in range(3):
-            print('|', end"")
+            print('|', end="")
             for i in range(5):
                 print(PIPSTRINGS[self._dice[i].get_value()][row], end='|')
             print()
