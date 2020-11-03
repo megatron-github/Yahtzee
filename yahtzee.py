@@ -16,6 +16,8 @@
 """
 import random
 
+      #---------The code provided by Professor Alistair Campbell */-----------#
+   
 # Information for drawing dice:
 PIPSTRINGS = [None, ["   ", " * ", "   "], ["*  ", "   ", "  *"],
               ["*  ", " * ", "  *"], ["* *", "   ", "* *"],
@@ -200,6 +202,8 @@ class YahtzeeHand:
         """ Return total of Dice. """
       
         return sum(self._get_values())
+      
+   #--------------------------------------------------------------------#
 
     def find_repeated_value(self, wanted_value):
         """ Return a list of repeated values from the dices. """ 
